@@ -23,7 +23,22 @@ namespace Ckd.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult AboutCkd()
+        {
+            return View();
+        }
+
+        public IActionResult Community()
+        {
+            return View();
+        }
+
+        public IActionResult Support()
+        {
+            return View();
+        }
+
+        public IActionResult GetInvolved()
         {
             return View();
         }
