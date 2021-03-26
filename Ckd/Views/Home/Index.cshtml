@@ -2,15 +2,18 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div>
-    <div class="text-center">
-        <h1 class="display-4">Chronic Kidney Disease Online</h1>
-        <div class="bg-warning">
-            <h3>UNDER CONSTRUCTION</h3>
-            <p>Welcome to my page on Chronic Kidney Disease (CKD), excuse our mess while the site is being built. If you want to help then please do <a class="text-dark" asp-area="" asp-controller="Home" asp-action="GetInvolved">Get Involved</a>.</p>
-        </div>        
-    </div>
-    <div class="text-left">        
+
+<!-- ====================================
+———	Quote
+===================================== -->
+<section class="pt-9 pb-2 py-md-10 bg-purple" id="quote" style="background-image: url(/img/background/avator-bg.png);">
+    <div class="container">
+        <div class="section-title justify-content-center mb-2 mb-md-8 wow fadeInUp">
+            <span class="shape shape-left bg-danger"></span>
+            <h2 class="text-white">What is Kidney Disease?</h2>
+            <span class="shape shape-right bg-danger"></span>
+        </div>
+
         <blockquote class="blockquote">
             <p class="mb-0">
                 People with CKD have a gradual loss of kidney function over time. The kidneys become less
@@ -23,45 +26,101 @@
                 Chronic Kidney
                 Disease in England:
                 The Human and
-                Financial Cost - 
+                Financial Cost -
                 <cite title="Source Title">Marion Kerr, Insight Health Economics</cite>
             </footer>
         </blockquote>
+    </div>
+</section>
 
 
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <h3>What Is CKD?</h3>
-                    <p class="mb-0">
-                        CKD or Chronic Kidney Disease is a long-term condition where the kidneys don't work as well as they should. More than 1.8 million people in England have diagnosed chronic kidney disease (CKD). In addition, there are thought to be around a million people who have the condition but are undiagnosed.
-                    </p>
-                </div>
-                <div class="col-sm">
-                    <h3>What is this site about?</h3>
-                    <p>My son was born with end stage kidney failure in 2020 and my wife and I have given everything we have to support him ever since. However that journey has been far from easy, often we learned things as we went along and struggled to know what was best. This site is an attempt to capture and share some of what we (and other CKD families) have learned to help everyone living with CKD.</p>
-                </div>
-                <div class="col-sm">
-                    <h3>How can you help?</h3>
-                    <p>I am a software professional and parent, I'm not a doctor nor do I live with CKD every day. But I want to build a useful resource for kidney warriors and their families. If I'm going to achieve this I need your help and support. Please consider taking a look at the <a class="text-dark" asp-area="" asp-controller="Home" asp-action="GetInvolved">Get Involved</a> page to see how you can help out.</p>
+
+<!-- ====================================
+———	Links
+===================================== -->
+<section class="pt-9 pb-7" id="blog">
+    <div class="container">
+        <div class="row wow fadeInUp">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="position-relative">
+                        <a href="blog-single-left-sidebar.html">
+                            <img class="card-img-top lazyestload" data-src="/img/blog/blog-img1.jpg" src="/img/blog/blog-img1.jpg" alt="Card image">
+                        </a>
+                    </div>
+
+                    <div class="card-body border-top-5 px-3 border-warning">
+                        <h3 class="card-title">
+                            <a class="text-warning text-capitalize d-block text-truncate" href="blog-single-left-sidebar.html">What Is CKD?</a>
+                        </h3>
+                        <p class="mb-2"> CKD or Chronic Kidney Disease is a long-term condition where the kidneys don't work as well as they should. More than 1.8 million people in England have diagnosed chronic kidney disease (CKD). In addition, there are thought to be around a million people who have the condition but are undiagnosed.</p>
+                        <a class="btn btn-link text-hover-warning pl-0" asp-controller="Home" asp-action="AboutCkd">
+                            <i class="fa fa-angle-double-right mr-1" aria-hidden="true"></i> Find Out More
+                        </a>
+                        <div class="card-img-overlay p-0">
+                            <span class="badge badge-rounded badge-danger m-4"> Change Me</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="position-relative">
+                        <a href="blog-single-left-sidebar.html">
+                            <img class="card-img-top lazyestload" data-src="/img/blog/blog-img2.jpg" src="/img/blog/blog-img2.jpg" alt="Card image">
+                        </a>
+                        <div class="card-img-overlay p-0">
+                            <span class="badge badge-rounded badge-danger m-4"> Change Me</span>
+                        </div>
+                    </div>
 
-        <div class="container">
-            <div class="row">                
-                <div class="col-sm">
-                    <h3>The Need For Support</h3>
-                    <p>CKD is a difficult and complex conditions. It is isolating and difficult. I have found the support of two facebook groups invaluable over the last year, these are <a href="https://www.facebook.com/groups/1444648835635226">Chronic Kidney Disease UK</a> and <a href="https://www.facebook.com/groups/750940214926395">KDARS for Kids</a>. If you are struggling with CKD or are caring for a child who is and are not a member then I highly recommend you join today. There are thousands of people sharing advice and support, don't cut yourself off - join them! </p>
+                    <div class="card-body border-top-5 px-3 border-success">
+                        <h3 class="card-title">
+                            <a class="text-success text-capitalize d-block text-truncate" href="blog-single-left-sidebar.html">What is this site about?</a>
+                        </h3>
+                        <p class="mb-2">My son was born with end stage kidney failure in 2020 and my wife and I have given everything we have to support him ever since. However that journey has been far from easy, often we learned things as we went along and struggled to know what was best. This site is an attempt to capture and share some of what we (and other CKD families) have learned to help everyone living with CKD</p>
+                    </div>
                 </div>
-                <div class="col-sm">
-                    <blockquote class="blockquote text-left">
-                        <p class="mb-0">My son's condition was completely misdiagnosed during pregnancy, we were prepared for a risk of PUV, not stage 5 kidney failure. Spending two weeks living in NICU was hard, seeing our premature baby hooked up to every machine monitoring his lifesigns 24/7 while they stabilised him was was harrowing. But we made it through, or rather I should say he fought his way though. He celebrated his first birthday recently and continues to defy all the consultants' expectations of him. I've never imagined being as proud of anyone as I am of our little warrior.</p>
-                        <footer class="blockquote-footer text-right"><cite title="Source Title">Adam's Story</cite></footer>
-                    </blockquote>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="position-relative">
+                        <a href="blog-single-left-sidebar.html">
+                            <img class="card-img-top lazyestload" data-src="/img/blog/blog-img3.jpg" src="/img/blog/blog-img3.jpg" alt="Card image">
+                        </a>
+                    </div>
+
+                    <div class="card-body border-top-5 px-3 border-danger">
+                        <h3 class="card-title">
+                            <a class="text-danger text-capitalize d-block text-truncate" href="blog-single-left-sidebar.html">What can I do to help?</a>
+                        </h3>
+                        <p class="mb-2">I am a software professional and parent, I'm not a doctor nor do I live with CKD every day. But I want to build a useful resource for kidney warriors and their families. If I'm going to achieve this I need your help and support. Please consider taking a look at the <a class="text-dark" asp-area="" asp-controller="Home" asp-action="GetInvolved">Get Involved</a> page to see how you can help out.</p>
+                        <a class="btn btn-link text-hover-danger pl-0" asp-controller="Home" asp-action="GetInvolved">
+                            <i class="fa fa-angle-double-right mr-1" aria-hidden="true"></i> Get Involved
+                        </a>
+                        <div class="card-img-overlay p-0">
+                            <span class="badge badge-rounded badge-danger m-4"> Change Me</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
+
+
+
+
+<!-- ====================================
+———	Story
+===================================== -->
+<section class="pt-9 pb-2 py-md-10 bg-stone" id="quote" style="background-image: url(/img/background/avator-bg.png);">
+    <div class="container">
+        <blockquote class="blockquote text-left">
+            <p class="mb-0">My son's condition was completely misdiagnosed during pregnancy, we were prepared for a risk of PUV, not stage 5 kidney failure. Spending two weeks living in NICU was hard, seeing our premature baby hooked up to every machine monitoring his lifesigns 24/7 while they stabilised him was was harrowing. But we made it through, or rather I should say he fought his way though. He celebrated his first birthday recently and continues to defy all the consultants' expectations of him. I've never imagined being as proud of anyone as I am of our little warrior.</p>
+            <footer class="blockquote-footer text-right"><cite title="Source Title">Adam's Story</cite></footer>
+        </blockquote>
+    </div>
+</section>
