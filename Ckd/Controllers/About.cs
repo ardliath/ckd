@@ -48,12 +48,7 @@ namespace Ckd.Controllers
             return View();
         }
 
-        public IActionResult NgTube()
-        {
-            return View();
-        }
-
-        public IActionResult Peg()
+        public IActionResult FeedingTubes()
         {
             return View();
         }
