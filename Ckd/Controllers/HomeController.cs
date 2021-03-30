@@ -38,6 +38,11 @@ namespace Ckd.Controllers
             return View();
         }
 
+        public IActionResult Diet()
+        {
+            return View();
+        }
+
         public IActionResult GetInvolved()
         {
             return View();
