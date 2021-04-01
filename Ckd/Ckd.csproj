@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\images\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\images\Kidney.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>

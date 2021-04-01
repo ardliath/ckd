@@ -52,5 +52,10 @@ namespace Ckd.Controllers
         {
             return View();
         }
+
+        public IActionResult RenastepRecipes()
+        {
+            return View();
+        }
     }
 }
