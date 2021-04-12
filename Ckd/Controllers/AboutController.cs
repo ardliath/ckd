@@ -57,5 +57,11 @@ namespace Ckd.Controllers
         {
             return View();
         }
+
+
+        public IActionResult Results()
+        {
+            return View();
+        }
     }
 }
