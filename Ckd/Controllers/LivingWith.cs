@@ -6,44 +6,36 @@ using System.Threading.Tasks;
 
 namespace Ckd.Controllers
 {
-    public class AboutController : Controller
+    public class LivingWith : Controller
     {
-        public IActionResult Kidneys()
-        {
-            return View();
-        }
-
         public IActionResult Ckd()
         {
             return View();
         }
 
-        public IActionResult Haemodialysis()
+        public IActionResult Results()
         {
             return View();
         }
 
-        public IActionResult PeritonealDialysis()
+        public IActionResult Support()
         {
             return View();
         }
 
-        public IActionResult LivingDonor()
+        public IActionResult Diet()
         {
             return View();
         }
 
-        public IActionResult ReceivingAKidney()
+
+
+        public IActionResult Medications()
         {
             return View();
         }
 
-        public IActionResult LivingWithNewKidney()
-        {
-            return View();
-        }
-
-        public IActionResult FeedingTubes()
+        public IActionResult RenastepRecipes()
         {
             return View();
         }

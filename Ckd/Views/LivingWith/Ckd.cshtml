@@ -1,0 +1,112 @@
+﻿@{
+    ViewData["Title"] = "Living With CKD";
+}
+
+
+<section class="pt-9 pb-2 py-md-10 bg-stone" id="quote" style="background-image: url(/img/background/avator-bg.png);">
+    <div class="container">
+
+        <div class="container">
+            <div class="section-title justify-content-center mb-2 mb-md-8 wow fadeInUp">
+                <span class="shape shape-left bg-danger"></span>
+                <h2 class="text-white">Living with CKD</h2>
+                <span class="shape shape-right bg-danger"></span>
+            </div>
+
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    KCD is a complex condition with many different causes. Some babies are born without kidneys, some people's renal function deteriorates in later life or as a result of illness. We can't regrow kidneys, however the condition can be managed and there are a number of treatment options available We'll discuss these further on this page.
+                </p>
+            </blockquote>
+
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    You should <span class="text-danger">always seek the advice of an experienced medical professional</span> if you have questions about CKD. This resource was not put together by doctors and is simply the combined experiences of different people with or close to the condition. <span class="text-danger">your renal team will be able to advise you based on your medical history and condition</span>.
+                </p>
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ====================================
+———	Links
+===================================== -->
+<section class="pt-9 pb-7" id="links">
+    <div class="container">
+        <div class="row wow fadeInUp">
+
+
+
+
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="position-relative">
+                        <a  asp-controller="LivingWith" asp-action="Results">
+                            <img class="card-img-top lazyestload" data-src="/images/results.png" src="/images/results.png" alt="Someone doing blood tests">
+                        </a>
+                    </div>
+
+                    <div class="card-body border-top-5 px-3 border-warning">
+                        <h3 class="card-title">
+                            <a class="text-warning text-capitalize d-block text-truncate" asp-controller="LivingWith" asp-action="Results">Your Results</a>
+                        </h3>
+                        <p class="mb-2">Get help understanding your results from the hospital.</p>
+
+                        <a class="btn btn-link text-hover-warning pl-0" asp-controller="LivingWith" asp-action="Results">
+                            <i class="fa fa-angle-double-right mr-1" asp-controller="LivingWith" asp-action="Results" aria-hidden="true"></i> Find Out More
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="position-relative">
+                        <a asp-controller="LivingWith" asp-action="Medications" >
+                            <img class="card-img-top lazyestload" data-src="/images/Meds.png" src="/images/Meds.png" alt="Some medicine">
+                        </a>
+                    </div>
+
+                    <div class="card-body border-top-5 px-3 border-warning">
+                        <h3 class="card-title">
+                            <a class="text-warning text-capitalize d-block text-truncate" asp-controller="LivingWith" asp-action="Medications">Common Medications</a>
+                        </h3>
+                        <p class="mb-2">Discuss some of the common medications CKD warriors take.</p>
+                        <a class="btn btn-link text-hover-warning pl-0" asp-controller="LivingWith" asp-action="Medications">
+                            <i class="fa fa-angle-double-right mr-1" asp-controller="LivingWith" asp-action="Medications" aria-hidden="true"></i> Find Out More
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="position-relative">
+                        <a asp-controller="LivingWith" asp-action="Diet">
+                            <img class="card-img-top lazyestload" data-src="/images/Diet.jpg" src="/images/Diet.jpg" alt="Some medicine">
+                        </a>
+                    </div>
+
+                    <div class="card-body border-top-5 px-3 border-warning">
+                        <h3 class="card-title">
+                            <a class="text-warning text-capitalize d-block text-truncate" asp-controller="LivingWith" asp-action="Diet">Diet</a>
+                        </h3>
+                        <p class="mb-2">Discuss some of the special diets people with CKD are often put on.</p>
+                        <a class="btn btn-link text-hover-warning pl-0" asp-controller="LivingWith" asp-action="Diet">
+                            <i class="fa fa-angle-double-right mr-1" aria-hidden="true"></i> Find Out More
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+</section>
