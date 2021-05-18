@@ -18,6 +18,11 @@ namespace Ckd.Controllers
             return View();
         }
 
+        public IActionResult WhatIsCkd()
+        {
+            return View();
+        }
+
         public IActionResult Haemodialysis()
         {
             return View();
