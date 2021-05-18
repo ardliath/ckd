@@ -43,7 +43,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="position-relative">
-                        <a  asp-controller="LivingWith" asp-action="Results">
+                        <a asp-controller="LivingWith" asp-action="Results">
                             <img class="card-img-top lazyestload" data-src="/images/results.png" src="/images/results.png" alt="Someone doing blood tests">
                         </a>
                     </div>
@@ -65,7 +65,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="position-relative">
-                        <a asp-controller="LivingWith" asp-action="Medications" >
+                        <a asp-controller="LivingWith" asp-action="Medications">
                             <img class="card-img-top lazyestload" data-src="/images/Meds.png" src="/images/Meds.png" alt="Some medicine">
                         </a>
                     </div>
@@ -96,6 +96,28 @@
                         </h3>
                         <p class="mb-2">Discuss some of the special diets people with CKD are often put on.</p>
                         <a class="btn btn-link text-hover-warning pl-0" asp-controller="LivingWith" asp-action="Diet">
+                            <i class="fa fa-angle-double-right mr-1" aria-hidden="true"></i> Find Out More
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="position-relative">
+                        <a asp-controller="LivingWith" asp-action="Support">
+                            <img class="card-img-top lazyestload" data-src="/images/LivingDonor.png" src="/images/LivingDonor.png" alt="Some medicine">
+                        </a>
+                    </div>
+
+                    <div class="card-body border-top-5 px-3 border-warning">
+                        <h3 class="card-title">
+                            <a class="text-warning text-capitalize d-block text-truncate" asp-controller="LivingWith" asp-action="Support">Getting Support</a>
+                        </h3>
+                        <p class="mb-2">Living with CKD or caring for someone with the condition is hard. Understand what support is available.</p>
+                        <a class="btn btn-link text-hover-warning pl-0" asp-controller="LivingWith" asp-action="Support">
                             <i class="fa fa-angle-double-right mr-1" aria-hidden="true"></i> Find Out More
                         </a>
                     </div>
