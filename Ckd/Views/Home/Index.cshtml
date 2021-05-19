@@ -37,17 +37,17 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="position-relative">
-                        <a href="blog-single-left-sidebar.html">
+                        <a asp-controller="About" asp-action="WhatIsCkd">
                             <img class="card-img-top lazyestload" data-src="/images/home-dialysis.png" src="/images/home-dialysis.png" alt="Card image">
                         </a>
                     </div>
 
                     <div class="card-body border-top-5 px-3 border-warning">
                         <h3 class="card-title">
-                            <a class="text-warning text-capitalize d-block text-truncate" href="blog-single-left-sidebar.html">What Is CKD?</a>
+                            <a class="text-warning text-capitalize d-block text-truncate" asp-controller="About" asp-action="WhatIsCkd">What Is CKD?</a>
                         </h3>
                         <p class="mb-2"> CKD or Chronic Kidney Disease is a long-term condition where the kidneys don't work as well as they should. More than 1.8 million people in England have diagnosed chronic kidney disease (CKD). In addition, there are thought to be around a million people who have the condition but are undiagnosed.</p>
-                        <a class="btn btn-link text-hover-warning pl-0" asp-controller="Home" asp-action="AboutCkd">
+                        <a class="btn btn-link text-hover-warning pl-0" asp-controller="About" asp-action="WhatIsCkd">
                             <i class="fa fa-angle-double-right mr-1" aria-hidden="true"></i> Find Out More
                         </a>
                     </div>
@@ -57,14 +57,14 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="position-relative">
-                        <a href="blog-single-left-sidebar.html">
+                        <a>
                             <img class="card-img-top lazyestload" data-src="/images/home-ward.png" src="/images/home-ward.png" alt="Card image">
                         </a>
                     </div>
 
                     <div class="card-body border-top-5 px-3 border-success">
                         <h3 class="card-title">
-                            <a class="text-success text-capitalize d-block text-truncate" href="blog-single-left-sidebar.html">What is this site about?</a>
+                            <a class="text-success text-capitalize d-block text-truncate">What is this site about?</a>
                         </h3>
                         <p class="mb-2">My son was born with end stage kidney failure in 2020 and my wife and I have given everything we have to support him ever since. However that journey has been far from easy, often we learned things as we went along and struggled to know what was best. This site is an attempt to capture and share some of what we (and other CKD families) have learned to help everyone living with CKD</p>
                     </div>
@@ -74,14 +74,14 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="position-relative">
-                        <a href="blog-single-left-sidebar.html">
+                        <a asp-controller="Home" asp-action="GetInvolved">
                             <img class="card-img-top lazyestload" data-src="/images/home-help.png" src="/images/home-help.png" alt="Card image">
                         </a>
                     </div>
 
                     <div class="card-body border-top-5 px-3 border-danger">
                         <h3 class="card-title">
-                            <a class="text-danger text-capitalize d-block text-truncate" href="blog-single-left-sidebar.html">What can I do to help?</a>
+                            <a class="text-danger text-capitalize d-block text-truncate" asp-controller="Home" asp-action="GetInvolved">What can I do to help?</a>
                         </h3>
                         <p class="mb-2">I am a software professional and parent, I'm not a doctor nor do I live with CKD every day. But I want to build a useful resource for kidney warriors and their families. If I'm going to achieve this I need your help and support. Please consider taking a look at the <a class="text-dark" asp-area="" asp-controller="Home" asp-action="GetInvolved">Get Involved</a> page to see how you can help out.</p>
                         <a class="btn btn-link text-hover-danger pl-0" asp-controller="Home" asp-action="GetInvolved">
