@@ -1,11 +1,62 @@
 ﻿@{
-    ViewData["Title"] = "About PeritonealDialysis";
+    ViewData["Title"] = "About Peritoneal Dialysis";
 }
 
-<div class="text-center">
-    <h1 class="display-4">About PeritonealDialysis</h1>
-</div>
-<div class="text-left">
-Some Text
 
-</div>
+
+<section class="pt-9 pb-2 py-md-10 bg-stone" id="quote" style="background-image: url(/img/background/avator-bg.png);">
+    <div class="container">
+
+        <div class="container">
+            <div class="section-title justify-content-center mb-2 mb-md-8 wow fadeInUp">
+                <span class="shape shape-left bg-danger"></span>
+                <h2 class="text-white">About Peritoneal Dialysis</h2>
+                <span class="shape shape-right bg-danger"></span>
+            </div>
+
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    Normally, the kidneys filter the blood, removing harmful waste products and excess fluid and turning these into urine to be passed out of the body.
+                </p>
+
+                <p class="mb-0">
+                    If someone's kidneys can no longer remove the waste products from the blood then dialysis is a procedure which can be used. There are two common forms of dialysis. <a asp-controller="About" asp-action="Haemodialysis" class="text-danger">Hemodialysis</a> and Peritoneal Dialysis, this page is about the latter.
+                </p>
+
+            </blockquote>
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    Peritoneal Dialysis is a technique where the peritoneal cavity is flushed with a solution to draw out the harmful toxins the body produces. The patient undergoes surgery to fit catheters before the process can begin and it sometimes takes some adjustment and experimentation by the medical team tto find the best protocols for each individual. You can see an example of how this works in the diagram below created by <a href="https://commons.wikimedia.org/wiki/File:Peritoneal_dialysis_intl.svg">Nanoxyde</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, and used under Wikimedia Commons.
+                </p>
+            </blockquote>
+
+
+            <div class="col-md-4 col-lg-3 col-xs-12 element-item">
+                <div class="media media-hoverable justify-content-center">
+                    <div class="position-relative w-100">
+                        <img class="media-img w-100 lazyestload" data-src="/images/Peritoneal_dialysis_intl.svg.png" src="/images/Peritoneal_dialysis_intl.svg.png"
+                             alt="gallery-img">
+                        <a class="media-img-overlay" data-fancybox="gallery" href="/images/Peritoneal_dialysis_intl.svg.png">
+                            <div class="btn btn-squre">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <blockquote class="blockquote">                
+                <p class="mb-0">
+                    Peritoneal Dialysis is often used to support people who are awaiting a <a asp-controller="About" asp-action="ReceivingAKidney">kidney transplant</a> or may be unable to recieve one for other reasons. Dialysis sessions can often last multiple hours over multiple days of the week (sometimes overnight) and can be quite tiring. All this is established with the clinic when someone begins dialysis and monitored with regular blood tests.
+                </p>
+            </blockquote>
+
+
+
+
+            <br /><br /><br /><br />
+        </div>
+    </div>
+</section>
+
+<partial name="/Views/Shared/_SomethingToContribute.cshtml" />
