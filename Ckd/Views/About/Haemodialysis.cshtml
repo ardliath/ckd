@@ -2,10 +2,69 @@
     ViewData["Title"] = "About Haemodialysis";
 }
 
-<div class="text-center">
-    <h1 class="display-4">About Haemodialysis</h1>
-</div>
-<div class="text-left">
-Some Text
+<section class="pt-9 pb-2 py-md-10 bg-stone" id="quote" style="background-image: url(/img/background/avator-bg.png);">
+    <div class="container">
 
-</div>
+        <div class="container">
+            <div class="section-title justify-content-center mb-2 mb-md-8 wow fadeInUp">
+                <span class="shape shape-left bg-danger"></span>
+                <h2 class="text-white">About Haemodialysis</h2>
+                <span class="shape shape-right bg-danger"></span>
+            </div>
+
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    Normally, the kidneys filter the blood, removing harmful waste products and excess fluid and turning these into urine to be passed out of the body.
+                </p>
+
+                <p class="mb-0">
+                    If someone's kidneys can no longer remove the waste products from the blood then dialysis is a procedure which can be used. There are two common forms of dialysis. Hemodialysis and <a asp-controller="About" asp-action="PeritonealDialysis" class="text-danger">Peritoneal Dialysis</a>, this page is about the former.
+                </p>
+
+            </blockquote>
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    Hemodialysis is a technique where someone's blood is filtered and cleaned to draw out the harmful toxins the body produces. The patient undergoes surgery to fit tubes before the process can begin and it sometimes takes some adjustment and experimentation by the medical team to find the best protocols for each individual. You can see an example of how this works in the diagram below created by <a href="https://commons.wikimedia.org/wiki/File:Albumin_dialysis_circuit.jpg">Osco</a>, and used under <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons, and used under Wikimedia Commons.
+                </p>
+            </blockquote>
+
+
+            <div class="col-md-4 col-lg-3 col-xs-12 element-item">
+                <div class="media media-hoverable justify-content-center">
+                    <div class="position-relative w-100">
+                        <img class="media-img w-100 lazyestload" data-src="/images/Albumin_dialysis_circuit.jpg" src="/images/Albumin_dialysis_circuit.jpg"
+                             alt="gallery-img">
+                        <a class="media-img-overlay" data-fancybox="gallery" href="/images/Albumin_dialysis_circuit.jpg">
+                            <div class="btn btn-squre">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    Hemodialysis is often used to support people who are awaiting a <a asp-controller="About" asp-action="ReceivingAKidney">kidney transplant</a> or may be unable to recieve one for other reasons. Dialysis sessions can often last multiple hours over multiple days of the week (sometimes overnight) and can be quite tiring. All this is established with the clinic when someone begins dialysis and monitored with regular blood tests.
+                </p>
+            </blockquote>
+
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    You can find more information on these sites
+                </p>
+
+                <ul class="mb-0 text-white">
+                    <li><a href="https://www.nhs.uk/conditions/dialysis">The NHS</a></li>
+                    <li><a href="https://www.kidney.org/atoz/content/hemodialysis">Kidney.org</a></li>
+                    <li><a href="https://www.kidneycareuk.org/about-kidney-health/treatments/dialysis/haemodialysis/">KidneyCareUk.org</a></li>
+                </ul>
+            </blockquote>
+
+
+            <br /><br /><br /><br />
+        </div>
+    </div>
+</section>
+
+<partial name="/Views/Shared/_SomethingToContribute.cshtml" />
