@@ -23,6 +23,11 @@ namespace Ckd.Controllers
             return View();
         }
 
+        public IActionResult TalkingAbout()
+        {
+            return View();
+        }
+
         public IActionResult Diet()
         {
             return View();
